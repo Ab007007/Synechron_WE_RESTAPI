@@ -3,6 +3,7 @@ Eclipse_WS/Training/.classpath
 Eclipse_WS/Training/.project
 Eclipse_WS/Training/.settings
 Eclipse_WS/Training/target
+Eclipse_WS/Training/logs
 Eclipse_WS/Training/src/test/java/com/synechron/restapi/Training/global/GlobalVariables.java
 
 
