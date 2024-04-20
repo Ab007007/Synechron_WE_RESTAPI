@@ -1,0 +1,181 @@
+Request method:	GET
+Request URI:	https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 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
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+#####################################HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sat, 20 Apr 2024 10:54:55 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"67145c0a17dca71ff048dda0e5dc98576729938d765fb17d1a8055d98de8420e"
+Last-Modified: Sat, 20 Apr 2024 04:00:06 GMT
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: repo
+github-authentication-token-expiration: 2024-04-28 18:30:00 UTC
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4997
+X-RateLimit-Reset: 1713613577
+X-RateLimit-Used: 3
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: 4553:30A96B:1721629:17929D4:66239EFF
+
+{
+    "id": 786403919,
+    "node_id": "R_kgDOLt-STw",
+    "name": "Synechron_WE_RESTAPI",
+    "full_name": "Ab007007/Synechron_WE_RESTAPI",
+    "private": false,
+    "owner": {
+        "login": "Ab007007",
+        "id": 27208952,
+        "node_id": "MDQ6VXNlcjI3MjA4OTUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/27208952?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Ab007007",
+        "html_url": "https://github.com/Ab007007",
+        "followers_url": "https://api.github.com/users/Ab007007/followers",
+        "following_url": "https://api.github.com/users/Ab007007/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Ab007007/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Ab007007/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Ab007007/subscriptions",
+        "organizations_url": "https://api.github.com/users/Ab007007/orgs",
+        "repos_url": "https://api.github.com/users/Ab007007/repos",
+        "events_url": "https://api.github.com/users/Ab007007/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Ab007007/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/Ab007007/Synechron_WE_RESTAPI",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI",
+    "forks_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/forks",
+    "keys_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/teams",
+    "hooks_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/hooks",
+    "issue_events_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/events",
+    "assignees_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/tags",
+    "blobs_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/languages",
+    "stargazers_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/stargazers",
+    "contributors_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/contributors",
+    "subscribers_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/subscribers",
+    "subscription_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/subscription",
+    "commits_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/merges",
+    "archive_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/downloads",
+    "issues_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Ab007007/Synechron_WE_RESTAPI/deployments",
+    "created_at": "2024-04-14T11:06:30Z",
+    "updated_at": "2024-04-20T04:00:06Z",
+    "pushed_at": "2024-04-14T11:06:58Z",
+    "git_url": "git://github.com/Ab007007/Synechron_WE_RESTAPI.git",
+    "ssh_url": "git@github.com:Ab007007/Synechron_WE_RESTAPI.git",
+    "clone_url": "https://github.com/Ab007007/Synechron_WE_RESTAPI.git",
+    "svn_url": "https://github.com/Ab007007/Synechron_WE_RESTAPI",
+    "homepage": null,
+    "size": 363,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "Java",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+        
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 1,
+    "default_branch": "master",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "temp_clone_token": "",
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "security_and_analysis": {
+        "secret_scanning": {
+            "status": "enabled"
+        },
+        "secret_scanning_push_protection": {
+            "status": "enabled"
+        },
+        "dependabot_security_updates": {
+            "status": "disabled"
+        },
+        "secret_scanning_validity_checks": {
+            "status": "disabled"
+        }
+    },
+    "network_count": 0,
+    "subscribers_count": 1
+}

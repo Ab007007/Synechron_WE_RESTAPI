@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-20T16:24:49 IST" name="Default suite" finished-at="2024-04-20T16:24:56 IST" duration-ms="7771">
+    <groups>
+    </groups>
+    <test started-at="2024-04-20T16:24:49 IST" name="Default test" finished-at="2024-04-20T16:24:56 IST" duration-ms="7771">
+      <class name="com.synechron.restapi.Training.filters.FiltersAndSpecForGit">
+        <test-method is-config="true" signature="initConstants()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:49 IST" name="initConstants" finished-at="2024-04-20T16:24:51 IST" duration-ms="1776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConstants -->
+        <test-method signature="getAllRepositories()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:51 IST" name="getAllRepositories" finished-at="2024-04-20T16:24:56 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRepositories -->
+        <test-method is-config="true" signature="saveLogsToFile(org.testng.ITestResult)[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:56 IST" name="saveLogsToFile" finished-at="2024-04-20T16:24:56 IST" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAllRepositories status=SUCCESS method=FiltersAndSpecForGit.getAllRepositories()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveLogsToFile -->
+        <test-method is-config="true" signature="initConstants()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:56 IST" name="initConstants" finished-at="2024-04-20T16:24:56 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConstants -->
+        <test-method signature="getRepository()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:56 IST" name="getRepository" finished-at="2024-04-20T16:24:56 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRepository -->
+        <test-method is-config="true" signature="saveLogsToFile(org.testng.ITestResult)[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3]" started-at="2024-04-20T16:24:56 IST" name="saveLogsToFile" finished-at="2024-04-20T16:24:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRepository status=SUCCESS method=FiltersAndSpecForGit.getRepository()[pri:0, instance:com.synechron.restapi.Training.filters.FiltersAndSpecForGit@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveLogsToFile -->
+      </class> <!-- com.synechron.restapi.Training.filters.FiltersAndSpecForGit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
