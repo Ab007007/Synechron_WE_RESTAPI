@@ -37,8 +37,8 @@ public class GetWithTestNG {
 				get("https://api.trello.com/1/boards/"+GlobalVariables.boardID).
 			then().
 				assertThat().statusCode(200).
-				body("name"	, CoreMatchers.equalTo("PostMan-Dashboard-New")).and().
-				body("id", CoreMatchers.equalTo("661b5b3982192b7a94938f42"));
+				body("name"	, CoreMatchers.equalTo("PostMan-Dashboard12")).and().
+				body("id", CoreMatchers.equalTo("66248cc595c07429131a1121"));
 		System.out.println("Rest Assured Call Ended");
 	}
 	
