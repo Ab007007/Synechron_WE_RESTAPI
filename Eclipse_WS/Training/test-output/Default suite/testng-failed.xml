@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.synechron.restapi.Training.post.CreateRepository">
+      <class name="com.synechron.restapi.Training.response.jayway.ValidateResponseBodyUsingJaywayPath">
         <methods>
-          <include name="initGlobals"/>
-          <include name="deleteRepository"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="getAllUrlWithWidthGreaterThan1000"/>
+          <include name="getResponse"/>
         </methods>
-      </class> <!-- com.synechron.restapi.Training.post.CreateRepository -->
+      </class> <!-- com.synechron.restapi.Training.response.jayway.ValidateResponseBodyUsingJaywayPath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
